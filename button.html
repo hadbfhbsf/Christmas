@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Press</title>
+    <style>
+        .back {
+            background-color: black;
+        }
+
+        .button {
+            text-align: center;
+            margin-left: 620px;
+            margin-top: 150px;
+        }
+
+        .press {
+            height: 400px;
+            width: 400px;
+            border-radius: 50%;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 100px;
+            border: 2px solid yellow;
+            background-image: url('images.jpg');
+            cursor: pointer;
+            text-decoration: none; /* Remove underlines from the anchor text */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: initial; /* Specify the initial text color */
+            transition: background-image 0.3s ease, border-color 0.3s ease, color 0.3s ease; /* Add transitions for a smoother effect */
+        }
+
+        .press:hover {
+            color: white;
+            background-image: url('123.jpg');
+            border-color: aqua;
+        }
+
+        .press:active {
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body class="back">
+    <div class="button">
+        <button class="press" onclick="location.href='wish.html'">Press</button>
+    </div>
+</body>
+</html>
